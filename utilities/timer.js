@@ -24,11 +24,18 @@ static requestReminders(){
 static parseReminders(reminders){
 	// console.log(JSON.parse(reminders[0][1]));
 	// "{"text1":"test2","text2":"2","frequencyNum":"1","frequencySize":"Hour","success":"","modalVisible":false,"date":"","timestamp":1522864158802}"
-	
+
 	if(reminders&&reminders[0]&&reminders[0][1]){
 		console.log(JSON.parse(reminders[0][1]));
+		let i=0;
+		reminders.forEach(function(reminder){
+			
+			console.log(i)
+			console.log('a reminder named: '+reminder[0])
+		
+
 		//get first reminder to test
-		let firstReminder = JSON.parse(reminders[0][1]);
+		let firstReminder = JSON.parse(reminders[i][1]);
 
 		//get date.now in ms (ms since unix epoch)
 		let now = Date.now();
@@ -37,12 +44,15 @@ static parseReminders(reminders){
 		console.log('timestamp is',timestamp)
 
 		//get frequency scale (frequencySize in ms / frequencyNum)
-		let frequencyScale = this.getFrequencyScale(firstReminder.frequencySize, firstReminder.frequencyNum);
+		let frequencyScale = TimerLogic.getFrequencyScale(firstReminder.frequencySize, firstReminder.frequencyNum);
 		console.log('frequency scale in ms: '+frequencyScale);
 
 		if(now>timestamp+frequencyScale){
-			this.notification(firstReminder);
+			TimerLogic.notification(firstReminder);
 		}
+
+			i++;
+		})
 	}
 }
 
@@ -82,7 +92,7 @@ if(reminder){
 	reminder.timestamp = Date.now();
 	console.log('resetting reminder: ',reminder)
 	AsyncStorage.setItem(reminder.text1, JSON.stringify(reminder));
-}
+	}
 }
 
 

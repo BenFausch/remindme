@@ -15,11 +15,20 @@ export default class ReminderInput extends Component {
       text2: '',
       frequencyNum: '1',
       frequencySize:'Hour',
-      success:'',
-      modalVisible:false,
+      type:"single",
       date:"",
-      timestamp:""
+      timestamp:"",
+      success:'',
+      modalVisible:false,     
     };
+
+    //text1: title
+    //text2: body
+    //frequencyNum: times per frequencySize
+    //frequencySize: unit for repeat (day/month etc)
+    //timestamp: used for time comparisons on bg-timer
+    //success: success message if needed
+    //modalvisible: show/hide success modal
   }
 
   save = () => {
@@ -29,6 +38,7 @@ export default class ReminderInput extends Component {
     })
     let current = this.state;
     current.timestamp = Date.now();
+    console.log(current)
 
     AsyncStorage.setItem(this.state.text1,JSON.stringify(current), ()=>{
       console.log(this.state)
@@ -87,6 +97,7 @@ export default class ReminderInput extends Component {
           </View>
         </Modal>
       <TextInput
+      underlineColorAndroid='transparent'
       placeholderTextColor={'white'}
       placeholder={'Title'}
         style={styles.input}
@@ -95,6 +106,7 @@ export default class ReminderInput extends Component {
         value={this.state.text1}
       />
       <TextInput
+      underlineColorAndroid='transparent'
       placeholderTextColor={'white'}
       placeholder={'What is the thing'}
         style={styles.input}
@@ -102,6 +114,25 @@ export default class ReminderInput extends Component {
         onFocus={()=>{this.setState({'text2':''})}}
         value={this.state.text2}
       />
+      <View style={styles.toggleGroup}>
+      
+        <TouchableOpacity
+        onPress={()=>{this.setState({'type':'single'})}}
+         style={[styles.toggle,this.state.type==='single'?styles.active:styles.inactive]}>
+         
+          <Text style={[styles.toggleText,this.state.type==='single'?styles.activeText:styles.inactiveText]}>Once</Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+        onPress={()=>{this.setState({'type':'recurring'})}}
+        style={[styles.toggle,this.state.type==='recurring'?styles.active:styles.inactive]}>
+          <Text style={[styles.toggleText,this.state.type==='recurring'?styles.activeText:styles.inactiveText]}>
+          Recurring</Text>
+        </TouchableOpacity>
+        
+        
+      </View>
+      {this.state.type==='recurring' ?(
+      <View style={this.state.recurring}>
       <Picker
         selectedValue={this.state.frequencyNum}
         style={styles.picker}
@@ -130,53 +161,16 @@ export default class ReminderInput extends Component {
         <Picker.Item label="Week" value="Week" />
         <Picker.Item label="Month" value="Month" />
       </Picker>
-      <TouchableOpacity
-        onPress={this.save}
-        color="#841584"
-        style={styles.save}
-      >
-      <Text style={styles.text}>Save it!</Text>
-      </TouchableOpacity>
       </View>
-
-     {/*} <View>
-        <Text>Remind me in the future:</Text>
-        <TextInput
-        placeholderTextColor={'white'}
-        placeholder={}
-        style={{height: 40, borderColor: 'gray', borderWidth: 1}}
-        onChangeText={(text1) => this.setState({text1})}
-        value={this.state.text1}
-      />
-      <TextInput
-      placeholderTextColor={'white'}
-      placeholder={}
-        style={{height: 40, borderColor: 'gray', borderWidth: 1}}
-        onChangeText={(text2) => this.setState({text2})}
-        value={this.state.text2}
-      />
-      <Picker
-        selectedValue={this.state.frequencyNum}
-        onValueChange={(itemValue, itemIndex) => this.setState({frequencyNum: itemValue})}>
-        <Picker.Item label="1" value="1" />
-        <Picker.Item label="2" value="2" />
-        <Picker.Item label="3" value="3" />
-        <Picker.Item label="4" value="4" />
-        <Picker.Item label="5" value="5" />
-        <Picker.Item label="6" value="6" />
-        <Picker.Item label="7" value="7" />
-        <Picker.Item label="8" value="8" />
-        <Picker.Item label="9" value="9" />
-        <Picker.Item label="10" value="10" />
-      </Picker>
+      ): (<View>    
         <DatePicker
         style={{width: 200}}
         date={this.state.date}
-        mode="date"
+        mode="datetime"
         placeholder="select date"
-        format="YYYY-MM-DD"
+        format="MMMM Do YYYY, h:mm:ss a"
         minDate="2016-05-01"
-        maxDate="2016-06-01"
+        maxDate="2020-06-01"
         confirmBtnText="Confirm"
         cancelBtnText="Cancel"
         customStyles={{
@@ -192,7 +186,17 @@ export default class ReminderInput extends Component {
         }}
         onDateChange={(date) => {this.setState({date: date})}}
       />
-      </View>*/}
+      </View>)}
+      <TouchableOpacity
+        onPress={this.save}
+        color="#841584"
+        style={styles.save}
+      >
+      <Text style={styles.text}>Save it!</Text>
+      </TouchableOpacity>
+      </View> 
+
+     
       </ScrollView>
     );
   }
