@@ -35,6 +35,11 @@ export default StyleSheet.create({
         textAlign: 'center',
         backgroundColor: '#00000053',
     },
+    datepicker:{
+        
+        marginBottom:50,
+        width:width-60
+    },
     picker: {
         color: 'white',
         flex: 0,

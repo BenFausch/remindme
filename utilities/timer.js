@@ -47,7 +47,11 @@ static parseReminders(reminders){
 		let frequencyScale = TimerLogic.getFrequencyScale(firstReminder.frequencySize, firstReminder.frequencyNum);
 		console.log('frequency scale in ms: '+frequencyScale);
 
-		if(now>timestamp+frequencyScale){
+
+		if((firstReminder.type==='single')&&(now>timestamp)){
+			TimerLogic.notification(firstReminder);
+		}
+		else if((firstReminder.type==='recurring')&&(now>timestamp+frequencyScale)){
 			TimerLogic.notification(firstReminder);
 		}
 
@@ -89,9 +93,12 @@ if(reminder){
   			extra: "test123"
 		});
 	AsyncStorage.removeItem(reminder.text1);
-	reminder.timestamp = Date.now();
-	console.log('resetting reminder: ',reminder)
-	AsyncStorage.setItem(reminder.text1, JSON.stringify(reminder));
+	
+		if(reminder.type==='recurring'){
+			console.log('resetting reminder: ',reminder)
+			reminder.timestamp = Date.now();
+			AsyncStorage.setItem(reminder.text1, JSON.stringify(reminder));
+		}
 	}
 }
 

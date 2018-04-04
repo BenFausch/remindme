@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { AppRegistry, TextInput, Picker, Text, View, Button, AsyncStorage, Modal, ScrollView, Dimensions, TouchableOpacity } from 'react-native';
 import DatePicker from 'react-native-datepicker'
 import styles from './styles/formStyles';
-
+import moment from 'moment';
 
 
 export default class ReminderInput extends Component {
@@ -37,13 +37,13 @@ export default class ReminderInput extends Component {
       success:'yolo',
     })
     let current = this.state;
-    current.timestamp = Date.now();
+    if(current.type==='recurring'){
+        current.timestamp = Date.now();
+      }
     console.log(current)
 
     AsyncStorage.setItem(this.state.text1,JSON.stringify(current), ()=>{
-      console.log(this.state)
       AsyncStorage.getItem(this.state.text1, (err,result)=>{
-        //parse results here to show the window
         this.setModalVisible(true)
       })
     })
@@ -52,14 +52,20 @@ export default class ReminderInput extends Component {
   destroy = () => {
     AsyncStorage.clear();
       AsyncStorage.getAllKeys((err, keys) => {
-  AsyncStorage.multiGet(keys, (err, stores) => {
-   console.log('async data:',stores);
-   
-   
-  });
-});
+        AsyncStorage.multiGet(keys, (err, stores) => {
+         console.log('async data cleared, proof:',stores);
+        });
+    });
   }
 
+
+  setDate = (date)=>{
+    
+    console.log('setdate')
+    console.log(moment(date, "MMMM Do YYYY, h:mm a").valueOf());
+    let timestamp = moment(date, "MMMM Do YYYY, h:mm a").valueOf();
+    this.setState({date: date, timestamp:timestamp})
+  }
 
   setModalVisible(visible) {
     this.setState({modalVisible: visible});
@@ -164,11 +170,11 @@ export default class ReminderInput extends Component {
       </View>
       ): (<View>    
         <DatePicker
-        style={{width: 200}}
+        style={styles.datepicker}
         date={this.state.date}
         mode="datetime"
         placeholder="select date"
-        format="MMMM Do YYYY, h:mm:ss a"
+        format="MMMM Do YYYY, h:mm a"
         minDate="2016-05-01"
         maxDate="2020-06-01"
         confirmBtnText="Confirm"
@@ -181,10 +187,15 @@ export default class ReminderInput extends Component {
             marginLeft: 0
           },
           dateInput: {
-            marginLeft: 36
+            marginLeft: 36,
+            
+          },
+          dateText:{
+          color:'white',
+          fontWeight:'bold'
           }
         }}
-        onDateChange={(date) => {this.setState({date: date})}}
+        onDateChange={(date) => {this.setDate(date)}}
       />
       </View>)}
       <TouchableOpacity
