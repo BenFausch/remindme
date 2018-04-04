@@ -1,0 +1,23 @@
+dependencies: \
+  /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native/React/Modules/RCTDevSettings.mm \
+  /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native/React/Modules/RCTDevSettings.h \
+  /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/benfausch/Sites/PersonalProjects/reminder/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JavaScriptCore.h \
+  /Users/benfausch/Sites/PersonalProjects/reminder/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JSCWrapper.h \
+  /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native/React/Base/RCTBridge+Private.h \
+  /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native/React/Base/RCTEventDispatcher.h \
+  /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native/React/Modules/RCTJSCSamplingProfiler.h \
+  /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native/React/DevSupport/RCTPackagerClient.h \
+  /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native/React/Profiler/RCTProfile.h \
+  /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native/React/DevSupport/RCTPackagerConnection.h \
+  /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native/React/DevSupport/RCTInspectorDevServerHelper.h \
+  /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native/React/Inspector/RCTInspectorPackagerConnection.h

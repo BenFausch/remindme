@@ -5,7 +5,6 @@ export default class Reminders extends React.Component {
   render() {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text>Reminder list goes here!</Text>
         <ReminderInput />
       </View>
     );

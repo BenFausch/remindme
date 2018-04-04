@@ -11,20 +11,27 @@ export default class ReminderInput extends Component {
   constructor(props) {
     super(props);
     this.state = { 
-      text1: 'Remindme Title',
-      text2: 'What is the thing',
-      frequencyNum: 'How often',
-      frequencySize:'',
+      text1: '',
+      text2: '',
+      frequencyNum: '1',
+      frequencySize:'Hour',
       success:'',
       modalVisible:false,
-      date:"2016-05-15"
+      date:"",
+      timestamp:""
     };
   }
 
   save = () => {
+    
+    this.setState({
+      success:'yolo',
+    })
+    let current = this.state;
+    current.timestamp = Date.now();
 
-    this.setState({success:'yolo'})
-    AsyncStorage.setItem(this.state.text1,JSON.stringify(this.state), ()=>{
+    AsyncStorage.setItem(this.state.text1,JSON.stringify(current), ()=>{
+      console.log(this.state)
       AsyncStorage.getItem(this.state.text1, (err,result)=>{
         //parse results here to show the window
         this.setModalVisible(true)
@@ -80,12 +87,16 @@ export default class ReminderInput extends Component {
           </View>
         </Modal>
       <TextInput
+      placeholderTextColor={'white'}
+      placeholder={'Title'}
         style={styles.input}
         onChangeText={(text1) => this.setState({text1})}
         onFocus={()=>{this.setState({'text1':''})}}
         value={this.state.text1}
       />
       <TextInput
+      placeholderTextColor={'white'}
+      placeholder={'What is the thing'}
         style={styles.input}
         onChangeText={(text2) => this.setState({text2})}
         onFocus={()=>{this.setState({'text2':''})}}
@@ -113,6 +124,7 @@ export default class ReminderInput extends Component {
         onValueChange={(itemValue, itemIndex) => this.setState({frequencySize: itemValue})}
         style={styles.picker}
         itemStyle={styles.pickerItem}>
+        <Picker.Item label="Minute" value="Minute" />
         <Picker.Item label="Hour" value="Hour" />
         <Picker.Item label="Day" value="Day" />
         <Picker.Item label="Week" value="Week" />
@@ -130,11 +142,15 @@ export default class ReminderInput extends Component {
      {/*} <View>
         <Text>Remind me in the future:</Text>
         <TextInput
+        placeholderTextColor={'white'}
+        placeholder={}
         style={{height: 40, borderColor: 'gray', borderWidth: 1}}
         onChangeText={(text1) => this.setState({text1})}
         value={this.state.text1}
       />
       <TextInput
+      placeholderTextColor={'white'}
+      placeholder={}
         style={{height: 40, borderColor: 'gray', borderWidth: 1}}
         onChangeText={(text2) => this.setState({text2})}
         value={this.state.text2}

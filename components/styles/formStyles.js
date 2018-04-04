@@ -17,16 +17,16 @@ export default StyleSheet.create({
     container: {
         flex: 0,
         width: width,
-        marginTop: 60,
+        // marginTop: 60,
         backgroundColor: '#403075',
-        color: 'white',
+        
         padding: 20,
-        fontFamily: fontFamily,
-        fontWeight: weight,
-        fontSize: size
+        
+        
+        
     },
     recurringContainer: {
-        'color': 'white',
+        
         alignItems: 'center'
     },
     input: {
@@ -43,7 +43,7 @@ export default StyleSheet.create({
         backgroundColor: '#00000053',
     },
     picker: {
-        color: 'white',
+        color:'white',
         flex: 1,
         width: width - 50,
         borderWidth: 1,
@@ -74,8 +74,8 @@ export default StyleSheet.create({
       borderWidth:3,
       borderColor:'white',
       width:width-50,
-      color:'white',
-      fontWeight:'bold',
+
+      
       height:60,
       alignItems:'center',
       paddingTop:10

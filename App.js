@@ -1,17 +1,19 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-
 import { TabNavigator } from 'react-navigation';
 import HomeScreen from './components/home';
 import Reminders from './components/reminders';
 import ReminderList from './components/reminderList';
+
 console.disableYellowBox = true;
 
 class App extends React.Component {
+
   
   render() {
+      console.log("render")
     return (
-      <View style={{'flex':1}}>
+      <View>
         <TabNavigator />
       </View>
     );
