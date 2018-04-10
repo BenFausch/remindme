@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import { AppRegistry, TextInput, Picker, Text, View, Button, AsyncStorage, Modal, ScrollView, Dimensions, TouchableOpacity } from 'react-native';
 import DatePicker from 'react-native-datepicker'
 import styles from './styles/formStyles';
+import TimerLogic from '../utilities/timer';
+import BackgroundTimer from 'react-native-background-timer';
 import moment from 'moment';
-
 
 export default class ReminderInput extends Component {
   
@@ -31,6 +32,15 @@ export default class ReminderInput extends Component {
     //modalvisible: show/hide success modal
   }
 
+
+  componentDidMount () {
+  console.log("didmount")
+  const intervalId = BackgroundTimer.setInterval(() => { 
+        TimerLogic.echo(Date.now());
+        TimerLogic.requestReminders();
+    }, 10000);
+  }
+
   save = () => {
     
     this.setState({
@@ -49,14 +59,7 @@ export default class ReminderInput extends Component {
     })
   }
 
-  destroy = () => {
-    AsyncStorage.clear();
-      AsyncStorage.getAllKeys((err, keys) => {
-        AsyncStorage.multiGet(keys, (err, stores) => {
-         console.log('async data cleared, proof:',stores);
-        });
-    });
-  }
+
 
 
   setDate = (date)=>{
@@ -76,11 +79,7 @@ export default class ReminderInput extends Component {
     return (
       <ScrollView style={styles.container}>
       <View style={styles.recurringContainer}>
-      <Button 
-      title="Destroy Data"
-      onPress={this.destroy}
-      style={styles.destroyButton}
-      />
+      
       <Modal
           animationType="slide"
           transparent={false}
@@ -105,7 +104,7 @@ export default class ReminderInput extends Component {
       <TextInput
       underlineColorAndroid='transparent'
       placeholderTextColor={'white'}
-      placeholder={'Title'}
+      placeholder={'Title your thing'}
         style={styles.input}
         onChangeText={(text1) => this.setState({text1})}
         onFocus={()=>{this.setState({'text1':''})}}
@@ -114,7 +113,7 @@ export default class ReminderInput extends Component {
       <TextInput
       underlineColorAndroid='transparent'
       placeholderTextColor={'white'}
-      placeholder={'What is the thing'}
+      placeholder={"What is the thing you're supposed to do"}
         style={styles.input}
         onChangeText={(text2) => this.setState({text2})}
         onFocus={()=>{this.setState({'text2':''})}}
@@ -205,9 +204,7 @@ export default class ReminderInput extends Component {
       >
       <Text style={styles.text}>Save it!</Text>
       </TouchableOpacity>
-      </View> 
-
-     
+      </View>      
       </ScrollView>
     );
   }

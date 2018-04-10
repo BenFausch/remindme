@@ -142,50 +142,6 @@
             ]
         },
         {
-            "outputFile": "/Users/benfausch/Sites/PersonalProjects/reminder/android/app/build/intermediates/res/merged/debug/values-ky-rKG_values-ky-rKG.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/benfausch/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f41d3be72f6f9738f1df4b7a217754d0/res/values-ky-rKG/values-ky-rKG.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "284,388,496,619,714,833,917,1024,1141,1222,1332,1439,1537,1643,1750,1851,1975,2078",
-                        "endColumns": "103,107,122,94,118,83,106,116,80,109,106,97,105,106,100,123,102,100",
-                        "endOffsets": "383,491,614,709,828,912,1019,1136,1217,1327,1434,1532,1638,1745,1846,1970,2073,2174"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,159,267,390,485,604,688,795,912,993,1103,1210,1308,1414,1521,1622,1746,1849",
-                        "endColumns": "103,107,122,94,118,83,106,116,80,109,106,97,105,106,100,123,102,100",
-                        "endOffsets": "154,262,385,480,599,683,790,907,988,1098,1205,1303,1409,1516,1617,1741,1844,1945"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/benfausch/Sites/PersonalProjects/reminder/android/app/build/intermediates/res/merged/debug/values-ta-rIN_values-ta-rIN.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/benfausch/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f41d3be72f6f9738f1df4b7a217754d0/res/values-ta-rIN/values-ta-rIN.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "284,398,506,629,734,849,938,1045,1171,1253,1355,1459,1556,1666,1768,1875,1994,2094",
-                        "endColumns": "113,107,122,104,114,88,106,125,81,101,103,96,109,101,106,118,99,100",
-                        "endOffsets": "393,501,624,729,844,933,1040,1166,1248,1350,1454,1551,1661,1763,1870,1989,2089,2190"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,169,277,400,505,620,709,816,942,1024,1126,1230,1327,1437,1539,1646,1765,1865",
-                        "endColumns": "113,107,122,104,114,88,106,125,81,101,103,96,109,101,106,118,99,100",
-                        "endOffsets": "164,272,395,500,615,704,811,937,1019,1121,1225,1322,1432,1534,1641,1760,1860,1961"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/Users/benfausch/Sites/PersonalProjects/reminder/android/app/build/intermediates/res/merged/debug/values-hy_values-hy.arsc.flat",
             "map": [
                 {
@@ -220,6 +176,50 @@
                         "startOffsets": "105,213,410,546,656,869,1007,1359,1585,1695,1894,2032,2253,2449,2544,2641",
                         "endColumns": "107,196,135,109,212,137,141,225,109,198,137,220,195,94,96,110",
                         "endOffsets": "208,405,541,651,864,1002,1144,1580,1690,1889,2027,2248,2444,2539,2636,2747"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/benfausch/Sites/PersonalProjects/reminder/android/app/build/intermediates/res/merged/debug/values-ta-rIN_values-ta-rIN.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/benfausch/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f41d3be72f6f9738f1df4b7a217754d0/res/values-ta-rIN/values-ta-rIN.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "284,398,506,629,734,849,938,1045,1171,1253,1355,1459,1556,1666,1768,1875,1994,2094",
+                        "endColumns": "113,107,122,104,114,88,106,125,81,101,103,96,109,101,106,118,99,100",
+                        "endOffsets": "393,501,624,729,844,933,1040,1166,1248,1350,1454,1551,1661,1763,1870,1989,2089,2190"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,169,277,400,505,620,709,816,942,1024,1126,1230,1327,1437,1539,1646,1765,1865",
+                        "endColumns": "113,107,122,104,114,88,106,125,81,101,103,96,109,101,106,118,99,100",
+                        "endOffsets": "164,272,395,500,615,704,811,937,1019,1121,1225,1322,1432,1534,1641,1760,1860,1961"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/benfausch/Sites/PersonalProjects/reminder/android/app/build/intermediates/res/merged/debug/values-ky-rKG_values-ky-rKG.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/benfausch/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f41d3be72f6f9738f1df4b7a217754d0/res/values-ky-rKG/values-ky-rKG.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "284,388,496,619,714,833,917,1024,1141,1222,1332,1439,1537,1643,1750,1851,1975,2078",
+                        "endColumns": "103,107,122,94,118,83,106,116,80,109,106,97,105,106,100,123,102,100",
+                        "endOffsets": "383,491,614,709,828,912,1019,1136,1217,1327,1434,1532,1638,1745,1846,1970,2073,2174"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,159,267,390,485,604,688,795,912,993,1103,1210,1308,1414,1521,1622,1746,1849",
+                        "endColumns": "103,107,122,94,118,83,106,116,80,109,106,97,105,106,100,123,102,100",
+                        "endOffsets": "154,262,385,480,599,683,790,907,988,1098,1205,1303,1409,1516,1617,1741,1844,1945"
                     }
                 }
             ]
@@ -416,23 +416,23 @@
             ]
         },
         {
-            "outputFile": "/Users/benfausch/Sites/PersonalProjects/reminder/android/app/build/intermediates/res/merged/debug/values-ml-rIN_values-ml-rIN.arsc.flat",
+            "outputFile": "/Users/benfausch/Sites/PersonalProjects/reminder/android/app/build/intermediates/res/merged/debug/values-ur-rPK_values-ur-rPK.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/benfausch/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f41d3be72f6f9738f1df4b7a217754d0/res/values-ml-rIN/values-ml-rIN.xml",
+                    "source": "/Users/benfausch/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f41d3be72f6f9738f1df4b7a217754d0/res/values-ur-rPK/values-ur-rPK.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "284,403,511,634,752,868,961,1066,1198,1280,1391,1497,1595,1709,1810,1921,2049,2150",
-                        "endColumns": "118,107,122,117,115,92,104,131,81,110,105,97,113,100,110,127,100,100",
-                        "endOffsets": "398,506,629,747,863,956,1061,1193,1275,1386,1492,1590,1704,1805,1916,2044,2145,2246"
+                        "startOffsets": "284,394,502,625,731,840,926,1030,1150,1235,1343,1452,1554,1665,1765,1873,2002,2100",
+                        "endColumns": "109,107,122,105,108,85,103,119,84,107,108,101,110,99,107,128,97,102",
+                        "endOffsets": "389,497,620,726,835,921,1025,1145,1230,1338,1447,1549,1660,1760,1868,1997,2095,2198"
                     },
                     "to": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,174,282,405,523,639,732,837,969,1051,1162,1268,1366,1480,1581,1692,1820,1921",
-                        "endColumns": "118,107,122,117,115,92,104,131,81,110,105,97,113,100,110,127,100,100",
-                        "endOffsets": "169,277,400,518,634,727,832,964,1046,1157,1263,1361,1475,1576,1687,1815,1916,2017"
+                        "startOffsets": "55,165,273,396,502,611,697,801,921,1006,1114,1223,1325,1436,1536,1644,1773,1871",
+                        "endColumns": "109,107,122,105,108,85,103,119,84,107,108,101,110,99,107,128,97,102",
+                        "endOffsets": "160,268,391,497,606,692,796,916,1001,1109,1218,1320,1431,1531,1639,1768,1866,1969"
                     }
                 }
             ]
@@ -460,23 +460,23 @@
             ]
         },
         {
-            "outputFile": "/Users/benfausch/Sites/PersonalProjects/reminder/android/app/build/intermediates/res/merged/debug/values-ur-rPK_values-ur-rPK.arsc.flat",
+            "outputFile": "/Users/benfausch/Sites/PersonalProjects/reminder/android/app/build/intermediates/res/merged/debug/values-ml-rIN_values-ml-rIN.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/benfausch/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f41d3be72f6f9738f1df4b7a217754d0/res/values-ur-rPK/values-ur-rPK.xml",
+                    "source": "/Users/benfausch/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f41d3be72f6f9738f1df4b7a217754d0/res/values-ml-rIN/values-ml-rIN.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "284,394,502,625,731,840,926,1030,1150,1235,1343,1452,1554,1665,1765,1873,2002,2100",
-                        "endColumns": "109,107,122,105,108,85,103,119,84,107,108,101,110,99,107,128,97,102",
-                        "endOffsets": "389,497,620,726,835,921,1025,1145,1230,1338,1447,1549,1660,1760,1868,1997,2095,2198"
+                        "startOffsets": "284,403,511,634,752,868,961,1066,1198,1280,1391,1497,1595,1709,1810,1921,2049,2150",
+                        "endColumns": "118,107,122,117,115,92,104,131,81,110,105,97,113,100,110,127,100,100",
+                        "endOffsets": "398,506,629,747,863,956,1061,1193,1275,1386,1492,1590,1704,1805,1916,2044,2145,2246"
                     },
                     "to": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,165,273,396,502,611,697,801,921,1006,1114,1223,1325,1436,1536,1644,1773,1871",
-                        "endColumns": "109,107,122,105,108,85,103,119,84,107,108,101,110,99,107,128,97,102",
-                        "endOffsets": "160,268,391,497,606,692,796,916,1001,1109,1218,1320,1431,1531,1639,1768,1866,1969"
+                        "startOffsets": "55,174,282,405,523,639,732,837,969,1051,1162,1268,1366,1480,1581,1692,1820,1921",
+                        "endColumns": "118,107,122,117,115,92,104,131,81,110,105,97,113,100,110,127,100,100",
+                        "endOffsets": "169,277,400,518,634,727,832,964,1046,1157,1263,1361,1475,1576,1687,1815,1916,2017"
                     }
                 }
             ]
@@ -1047,6 +1047,45 @@
             ]
         },
         {
+            "outputFile": "/Users/benfausch/Sites/PersonalProjects/reminder/android/app/build/intermediates/res/merged/debug/values-mr_values-mr.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/benfausch/.gradle/caches/transforms-1/files-1.1/play-services-base-10.0.1.aar/50e4832bf48355c093686212eabb79fb/res/values-mr/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "283,389,585,707,817,1021,1140,1265,1473,1582,1767,1892,2093,2275,2361,2453",
+                        "endColumns": "105,195,121,109,203,118,124,207,108,184,124,200,181,85,91,105",
+                        "endOffsets": "388,584,706,816,1020,1139,1264,1472,1581,1766,1891,2092,2274,2360,2452,2558"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,215,411,537,651,855,978,1309,1517,1630,1815,1944,2145,2331,2421,2517",
+                        "endColumns": "109,195,125,113,203,122,128,207,112,184,128,200,185,89,95,109",
+                        "endOffsets": "210,406,532,646,850,973,1102,1512,1625,1810,1939,2140,2326,2416,2512,2622"
+                    }
+                },
+                {
+                    "source": "/Users/benfausch/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.0.1.aar/2cc70db5aa05c39beedd831123adc742/res/values-mr/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "201",
+                        "endOffsets": "486"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "1107",
+                        "endColumns": "201",
+                        "endOffsets": "1304"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "/Users/benfausch/Sites/PersonalProjects/reminder/android/app/build/intermediates/res/merged/debug/values-ar_values-ar.arsc.flat",
             "map": [
                 {
@@ -1098,45 +1137,6 @@
                         "startOffsets": "105,222,330,453,557,666,748,849,963,1042,1147,1248,1344,1452,1555,1658,1777,4319",
                         "endColumns": "116,107,122,103,108,81,100,113,78,104,100,95,107,102,102,118,96,100",
                         "endOffsets": "217,325,448,552,661,743,844,958,1037,1142,1243,1339,1447,1550,1653,1772,1869,4415"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/benfausch/Sites/PersonalProjects/reminder/android/app/build/intermediates/res/merged/debug/values-mr_values-mr.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/benfausch/.gradle/caches/transforms-1/files-1.1/play-services-base-10.0.1.aar/50e4832bf48355c093686212eabb79fb/res/values-mr/values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "283,389,585,707,817,1021,1140,1265,1473,1582,1767,1892,2093,2275,2361,2453",
-                        "endColumns": "105,195,121,109,203,118,124,207,108,184,124,200,181,85,91,105",
-                        "endOffsets": "388,584,706,816,1020,1139,1264,1472,1581,1766,1891,2092,2274,2360,2452,2558"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,10,11,12,13,14,15,16,17,18",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,215,411,537,651,855,978,1309,1517,1630,1815,1944,2145,2331,2421,2517",
-                        "endColumns": "109,195,125,113,203,122,128,207,112,184,128,200,185,89,95,109",
-                        "endOffsets": "210,406,532,646,850,973,1102,1512,1625,1810,1939,2140,2326,2416,2512,2622"
-                    }
-                },
-                {
-                    "source": "/Users/benfausch/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.0.1.aar/2cc70db5aa05c39beedd831123adc742/res/values-mr/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "285",
-                        "endColumns": "201",
-                        "endOffsets": "486"
-                    },
-                    "to": {
-                        "startLines": "9",
-                        "startColumns": "4",
-                        "startOffsets": "1107",
-                        "endColumns": "201",
-                        "endOffsets": "1304"
                     }
                 }
             ]

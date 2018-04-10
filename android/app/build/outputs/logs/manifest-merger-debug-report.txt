@@ -4,22 +4,29 @@ ADDED from /Users/benfausch/Sites/PersonalProjects/reminder/android/app/src/main
 INJECTED from /Users/benfausch/Sites/PersonalProjects/reminder/android/app/src/main/AndroidManifest.xml:1:1-26:12
 INJECTED from /Users/benfausch/Sites/PersonalProjects/reminder/android/app/src/main/AndroidManifest.xml:1:1-26:12
 INJECTED from /Users/benfausch/Sites/PersonalProjects/reminder/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [:react-native-background-task] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-background-task/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-17:12
 MERGED from [:react-native-notifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-65:12
 MERGED from [:react-native-background-timer] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-background-timer/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:reactnativenotifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-65:12
 MERGED from [com.facebook.react:react-native:0.54.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/react-native-0.54.0.aar/17b48518e06eaf211d7b5ed09c779de2/AndroidManifest.xml:2:1-15:12
 MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f41d3be72f6f9738f1df4b7a217754d0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:2:1-60:12
 MERGED from [com.google.android.gms:play-services-gcm:10.0.1] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/play-services-gcm-10.0.1.aar/e29b05d847fd266b4502d2bac0a39dcc/AndroidManifest.xml:16:1-24:12
 MERGED from [com.google.android.gms:play-services-iid:10.0.1] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/play-services-iid-10.0.1.aar/3b4e1456c5d734b8f5e8b3db3ba129bd/AndroidManifest.xml:16:1-24:12
 MERGED from [com.google.android.gms:play-services-base:10.0.1] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/play-services-base-10.0.1.aar/50e4832bf48355c093686212eabb79fb/AndroidManifest.xml:16:1-21:12
 MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/play-services-tasks-10.0.1.aar/d97233665e28717c5e3eb5d999be2cf6/AndroidManifest.xml:2:1-5:12
 MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.0.1.aar/2cc70db5aa05c39beedd831123adc742/AndroidManifest.xml:16:1-23:12
-MERGED from [com.android.support:support-v4:24.0.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/support-v4-24.0.0.aar/04bd6d490dae42ddd4a2a8985a14a361/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-v4:25.2.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/aa173cc45585c4966cd62b3b244da434/AndroidManifest.xml:17:1-27:12
 MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/e54ddeef9a9c186201f1e70b8cd9ccc5/AndroidManifest.xml:10:1-18:12
 MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/339893fee7f5e62c8058eaf108ec111f/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/d5817adff8be34363883c1ebf188aeea/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/cda866e1a0b4fff72929e52f3669b90b/AndroidManifest.xml:1:1-4:12
 MERGED from [org.webkit:android-jsc:r174650] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/6313bbb2a45c7b7dea47f27668586998/AndroidManifest.xml:1:1-3:12
+MERGED from [net.vrallev.android:cat:1.0.5] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/cat-1.0.5.aar/56f61ce05f4f8cec99edaba4d8651344/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:25.2.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/support-fragment-25.2.0.aar/aa403d36b518d7958c930cbef847e990/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/d12d4ca52a582a29e55591f1386a428d/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-utils:25.2.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/3690932a58612285dd16e9e195c64ae2/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-ui:25.2.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.2.0.aar/9924d33046f8399fca54df6219392989/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-compat:25.2.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/2fbf1af5b6bb36273bc13de2cf82ddee/AndroidManifest.xml:17:1-27:12
 MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/e97e447a3fcedcbe504f16aa1325deb4/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/99e9d0a911af109cee48831c464efceb/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/9ae655f92666e34302c3a5b9d5b7e56c/AndroidManifest.xml:2:1-9:12
@@ -57,14 +64,16 @@ MERGED from [com.facebook.react:react-native:0.54.0] /Users/benfausch/.gradle/ca
 		ADDED from /Users/benfausch/Sites/PersonalProjects/reminder/android/app/src/main/AndroidManifest.xml:5:22-75
 application
 ADDED from /Users/benfausch/Sites/PersonalProjects/reminder/android/app/src/main/AndroidManifest.xml:7:5-24:19
+MERGED from [:react-native-background-task] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-background-task/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-15:19
+MERGED from [:react-native-background-task] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-background-task/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-15:19
 MERGED from [:react-native-notifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:23:5-63:19
 MERGED from [:react-native-notifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:23:5-63:19
-MERGED from [:reactnativenotifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:23:5-63:19
-MERGED from [:reactnativenotifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:23:5-63:19
 MERGED from [com.facebook.react:react-native:0.54.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/react-native-0.54.0.aar/17b48518e06eaf211d7b5ed09c779de2/AndroidManifest.xml:13:5-20
 MERGED from [com.facebook.react:react-native:0.54.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/react-native-0.54.0.aar/17b48518e06eaf211d7b5ed09c779de2/AndroidManifest.xml:13:5-20
 MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f41d3be72f6f9738f1df4b7a217754d0/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f41d3be72f6f9738f1df4b7a217754d0/AndroidManifest.xml:22:5-20
+MERGED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:16:5-58:19
+MERGED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:16:5-58:19
 MERGED from [com.google.android.gms:play-services-gcm:10.0.1] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/play-services-gcm-10.0.1.aar/e29b05d847fd266b4502d2bac0a39dcc/AndroidManifest.xml:23:5-19
 MERGED from [com.google.android.gms:play-services-gcm:10.0.1] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/play-services-gcm-10.0.1.aar/e29b05d847fd266b4502d2bac0a39dcc/AndroidManifest.xml:23:5-19
 MERGED from [com.google.android.gms:play-services-iid:10.0.1] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/play-services-iid-10.0.1.aar/3b4e1456c5d734b8f5e8b3db3ba129bd/AndroidManifest.xml:23:5-19
@@ -75,14 +84,26 @@ MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /Users/benfausch
 MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/play-services-tasks-10.0.1.aar/d97233665e28717c5e3eb5d999be2cf6/AndroidManifest.xml:4:5-19
 MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.0.1.aar/2cc70db5aa05c39beedd831123adc742/AndroidManifest.xml:19:5-21:19
 MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.0.1.aar/2cc70db5aa05c39beedd831123adc742/AndroidManifest.xml:19:5-21:19
-MERGED from [com.android.support:support-v4:24.0.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/support-v4-24.0.0.aar/04bd6d490dae42ddd4a2a8985a14a361/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:24.0.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/support-v4-24.0.0.aar/04bd6d490dae42ddd4a2a8985a14a361/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.2.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/aa173cc45585c4966cd62b3b244da434/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.2.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/aa173cc45585c4966cd62b3b244da434/AndroidManifest.xml:25:5-20
 MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/cda866e1a0b4fff72929e52f3669b90b/AndroidManifest.xml:3:3-17
 MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/cda866e1a0b4fff72929e52f3669b90b/AndroidManifest.xml:3:3-17
 MERGED from [org.webkit:android-jsc:r174650] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/6313bbb2a45c7b7dea47f27668586998/AndroidManifest.xml:2:3-17
 MERGED from [org.webkit:android-jsc:r174650] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/6313bbb2a45c7b7dea47f27668586998/AndroidManifest.xml:2:3-17
+MERGED from [com.android.support:support-fragment:25.2.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/support-fragment-25.2.0.aar/aa403d36b518d7958c930cbef847e990/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/support-fragment-25.2.0.aar/aa403d36b518d7958c930cbef847e990/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/d12d4ca52a582a29e55591f1386a428d/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/d12d4ca52a582a29e55591f1386a428d/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/3690932a58612285dd16e9e195c64ae2/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/3690932a58612285dd16e9e195c64ae2/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.2.0.aar/9924d33046f8399fca54df6219392989/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.2.0.aar/9924d33046f8399fca54df6219392989/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/2fbf1af5b6bb36273bc13de2cf82ddee/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/2fbf1af5b6bb36273bc13de2cf82ddee/AndroidManifest.xml:25:5-20
 	android:label
 		ADDED from /Users/benfausch/Sites/PersonalProjects/reminder/android/app/src/main/AndroidManifest.xml:9:7-39
+	tools:ignore
+		ADDED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:16:18-44
 	android:icon
 		ADDED from /Users/benfausch/Sites/PersonalProjects/reminder/android/app/src/main/AndroidManifest.xml:10:7-41
 	android:allowBackup
@@ -119,16 +140,18 @@ uses-sdk
 INJECTED from /Users/benfausch/Sites/PersonalProjects/reminder/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/benfausch/Sites/PersonalProjects/reminder/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/benfausch/Sites/PersonalProjects/reminder/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-background-task] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-background-task/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-background-task] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-background-task/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-notifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-notifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-background-timer] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-background-timer/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-background-timer] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-background-timer/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:reactnativenotifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:reactnativenotifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.54.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/react-native-0.54.0.aar/17b48518e06eaf211d7b5ed09c779de2/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.54.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/react-native-0.54.0.aar/17b48518e06eaf211d7b5ed09c779de2/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f41d3be72f6f9738f1df4b7a217754d0/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f41d3be72f6f9738f1df4b7a217754d0/AndroidManifest.xml:20:5-43
+MERGED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:8:5-10:41
+MERGED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:8:5-10:41
 MERGED from [com.google.android.gms:play-services-gcm:10.0.1] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/play-services-gcm-10.0.1.aar/e29b05d847fd266b4502d2bac0a39dcc/AndroidManifest.xml:17:5-42
 MERGED from [com.google.android.gms:play-services-gcm:10.0.1] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/play-services-gcm-10.0.1.aar/e29b05d847fd266b4502d2bac0a39dcc/AndroidManifest.xml:17:5-42
 MERGED from [com.google.android.gms:play-services-iid:10.0.1] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/play-services-iid-10.0.1.aar/3b4e1456c5d734b8f5e8b3db3ba129bd/AndroidManifest.xml:17:5-42
@@ -139,8 +162,8 @@ MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /Users/benfausch
 MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/play-services-tasks-10.0.1.aar/d97233665e28717c5e3eb5d999be2cf6/AndroidManifest.xml:3:5-42
 MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.0.1.aar/2cc70db5aa05c39beedd831123adc742/AndroidManifest.xml:17:5-42
 MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.0.1.aar/2cc70db5aa05c39beedd831123adc742/AndroidManifest.xml:17:5-42
-MERGED from [com.android.support:support-v4:24.0.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/support-v4-24.0.0.aar/04bd6d490dae42ddd4a2a8985a14a361/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:24.0.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/support-v4-24.0.0.aar/04bd6d490dae42ddd4a2a8985a14a361/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.2.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/aa173cc45585c4966cd62b3b244da434/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.2.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/aa173cc45585c4966cd62b3b244da434/AndroidManifest.xml:21:5-23:54
 MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/e54ddeef9a9c186201f1e70b8cd9ccc5/AndroidManifest.xml:14:5-16:41
 MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/e54ddeef9a9c186201f1e70b8cd9ccc5/AndroidManifest.xml:14:5-16:41
 MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/339893fee7f5e62c8058eaf108ec111f/AndroidManifest.xml:5:5-7:41
@@ -149,6 +172,18 @@ MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/benfausch/.
 MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/d5817adff8be34363883c1ebf188aeea/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/cda866e1a0b4fff72929e52f3669b90b/AndroidManifest.xml:2:3-70
 MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/cda866e1a0b4fff72929e52f3669b90b/AndroidManifest.xml:2:3-70
+MERGED from [net.vrallev.android:cat:1.0.5] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/cat-1.0.5.aar/56f61ce05f4f8cec99edaba4d8651344/AndroidManifest.xml:7:5-9:41
+MERGED from [net.vrallev.android:cat:1.0.5] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/cat-1.0.5.aar/56f61ce05f4f8cec99edaba4d8651344/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-fragment:25.2.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/support-fragment-25.2.0.aar/aa403d36b518d7958c930cbef847e990/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.2.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/support-fragment-25.2.0.aar/aa403d36b518d7958c930cbef847e990/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/d12d4ca52a582a29e55591f1386a428d/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/d12d4ca52a582a29e55591f1386a428d/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.2.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/3690932a58612285dd16e9e195c64ae2/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.2.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/3690932a58612285dd16e9e195c64ae2/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.2.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.2.0.aar/9924d33046f8399fca54df6219392989/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.2.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.2.0.aar/9924d33046f8399fca54df6219392989/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.2.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/2fbf1af5b6bb36273bc13de2cf82ddee/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.2.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/2fbf1af5b6bb36273bc13de2cf82ddee/AndroidManifest.xml:21:5-23:58
 MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/e97e447a3fcedcbe504f16aa1325deb4/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/e97e447a3fcedcbe504f16aa1325deb4/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/99e9d0a911af109cee48831c464efceb/AndroidManifest.xml:5:5-7:41
@@ -160,7 +195,7 @@ MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/benfausch/.gradle/caches/t
 INJECTED from /Users/benfausch/Sites/PersonalProjects/reminder/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/benfausch/Sites/PersonalProjects/reminder/android/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:support-v4:24.0.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/support-v4-24.0.0.aar/04bd6d490dae42ddd4a2a8985a14a361/AndroidManifest.xml:23:9-51
+		ADDED from [com.android.support:support-v4:25.2.0] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/aa173cc45585c4966cd62b3b244da434/AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
 		INJECTED from /Users/benfausch/Sites/PersonalProjects/reminder/android/app/src/main/AndroidManifest.xml
 		ADDED from /Users/benfausch/Sites/PersonalProjects/reminder/android/app/src/main/AndroidManifest.xml
@@ -169,52 +204,44 @@ INJECTED from /Users/benfausch/Sites/PersonalProjects/reminder/android/app/src/m
 		INJECTED from /Users/benfausch/Sites/PersonalProjects/reminder/android/app/src/main/AndroidManifest.xml
 		ADDED from /Users/benfausch/Sites/PersonalProjects/reminder/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/benfausch/Sites/PersonalProjects/reminder/android/app/src/main/AndroidManifest.xml
+service#com.jamesisaac.rnbackgroundtask.HeadlessTaskService
+ADDED from [:react-native-background-task] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-background-task/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:9-14:38
+	android:enabled
+		ADDED from [:react-native-background-task] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-background-task/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:13-35
+	android:name
+		ADDED from [:react-native-background-task] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-background-task/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:13-79
 permission#${applicationId}.permission.C2D_MESSAGE
 ADDED from [:react-native-notifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:5-14:47
-MERGED from [:reactnativenotifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:5-14:47
-MERGED from [:reactnativenotifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:5-14:47
 	android:protectionLevel
 		ADDED from [:react-native-notifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:9-44
 	android:name
 		ADDED from [:react-native-notifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:9-63
 permission#com.reminder.permission.C2D_MESSAGE
 ADDED from [:react-native-notifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:5-14:47
-MERGED from [:reactnativenotifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:5-14:47
-MERGED from [:reactnativenotifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:5-14:47
 	android:protectionLevel
 		ADDED from [:react-native-notifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:9-44
 	android:name
 		ADDED from [:react-native-notifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:9-63
 uses-permission#${applicationId}.permission.C2D_MESSAGE
 ADDED from [:react-native-notifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:16:5-79
-MERGED from [:reactnativenotifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:16:5-79
-MERGED from [:reactnativenotifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:16:5-79
 	android:name
 		ADDED from [:react-native-notifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:16:22-76
 uses-permission#com.reminder.permission.C2D_MESSAGE
 ADDED from [:react-native-notifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:16:5-79
-MERGED from [:reactnativenotifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:16:5-79
-MERGED from [:reactnativenotifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:16:5-79
 	android:name
 		ADDED from [:react-native-notifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:16:22-76
 uses-permission#android.permission.VIBRATE
 ADDED from [:react-native-notifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:19:5-21:38
-MERGED from [:reactnativenotifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:19:5-21:38
-MERGED from [:reactnativenotifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:19:5-21:38
 	android:maxSdkVersion
 		ADDED from [:react-native-notifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:21:9-35
 	android:name
 		ADDED from [:react-native-notifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:20:9-50
 service#com.wix.reactnativenotifications.core.ProxyService
 ADDED from [:react-native-notifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:26:9-86
-MERGED from [:reactnativenotifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:26:9-86
-MERGED from [:reactnativenotifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:26:9-86
 	android:name
 		ADDED from [:react-native-notifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:26:18-83
 receiver#com.google.android.gms.gcm.GcmReceiver
 ADDED from [:react-native-notifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:33:9-43:20
-MERGED from [:reactnativenotifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:33:9-43:20
-MERGED from [:reactnativenotifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:33:9-43:20
 	android:exported
 		ADDED from [:react-native-notifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:35:13-36
 	android:permission
@@ -243,8 +270,6 @@ ADDED from [:react-native-notifications] /Users/benfausch/Sites/PersonalProjects
 		ADDED from [:react-native-notifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:41:27-58
 service#com.wix.reactnativenotifications.gcm.GcmMessageHandlerService
 ADDED from [:react-native-notifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:45:9-51:19
-MERGED from [:reactnativenotifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:45:9-51:19
-MERGED from [:reactnativenotifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:45:9-51:19
 	android:exported
 		ADDED from [:react-native-notifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:47:13-37
 	android:name
@@ -253,8 +278,6 @@ intent-filter#com.google.android.c2dm.intent.RECEIVE
 ADDED from [:react-native-notifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:48:13-50:29
 service#com.wix.reactnativenotifications.gcm.GcmInstanceIdListenerService
 ADDED from [:react-native-notifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:53:9-59:19
-MERGED from [:reactnativenotifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:53:9-59:19
-MERGED from [:reactnativenotifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:53:9-59:19
 	android:exported
 		ADDED from [:react-native-notifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:55:13-37
 	android:name
@@ -267,12 +290,98 @@ ADDED from [:react-native-notifications] /Users/benfausch/Sites/PersonalProjects
 		ADDED from [:react-native-notifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:57:25-77
 service#com.wix.reactnativenotifications.gcm.GcmInstanceIdRefreshHandlerService
 ADDED from [:react-native-notifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:60:9-62:40
-MERGED from [:reactnativenotifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:60:9-62:40
-MERGED from [:reactnativenotifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:60:9-62:40
 	android:exported
 		ADDED from [:react-native-notifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:62:13-37
 	android:name
 		ADDED from [:react-native-notifications] /Users/benfausch/Sites/PersonalProjects/reminder/node_modules/react-native-notifications/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:61:13-99
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:12:5-68
+	android:name
+		ADDED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:12:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:13:22-76
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:14:22-78
+service#com.evernote.android.job.v21.PlatformJobService
+ADDED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:17:9-20:72
+	android:exported
+		ADDED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:19:13-37
+	android:permission
+		ADDED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:20:13-69
+	android:name
+		ADDED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:18:13-75
+service#com.evernote.android.job.v14.PlatformAlarmService
+ADDED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:21:9-23:40
+	android:exported
+		ADDED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:23:13-37
+	android:name
+		ADDED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:22:13-77
+receiver#com.evernote.android.job.v14.PlatformAlarmReceiver
+ADDED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:25:9-34:20
+	android:exported
+		ADDED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:26:13-78
+intent-filter#com.evernote.android.job.v14.RUN_JOB+net.vrallev.android.job.v14.RUN_JOB
+ADDED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:28:13-33:29
+action#com.evernote.android.job.v14.RUN_JOB
+ADDED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:31:17-79
+	android:name
+		ADDED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:31:25-76
+action#net.vrallev.android.job.v14.RUN_JOB
+ADDED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:32:17-78
+	android:name
+		ADDED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:32:25-75
+receiver#com.evernote.android.job.JobBootReceiver
+ADDED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:35:9-44:20
+	android:exported
+		ADDED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:37:13-37
+	android:name
+		ADDED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:36:13-68
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.action.MY_PACKAGE_REPLACED+android.intent.action.QUICKBOOT_POWERON+com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:38:13-43:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:39:17-79
+	android:name
+		ADDED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:39:25-76
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:40:17-82
+	android:name
+		ADDED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:40:25-79
+action#com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:41:17-82
+	android:name
+		ADDED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:41:25-79
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:42:17-84
+	android:name
+		ADDED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:42:25-81
+service#com.evernote.android.job.gcm.PlatformGcmService
+ADDED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:46:9-54:19
+	android:enabled
+		ADDED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:48:13-36
+	android:exported
+		ADDED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:49:13-36
+	android:permission
+		ADDED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:50:13-93
+	android:name
+		ADDED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:47:13-75
+intent-filter#com.google.android.gms.gcm.ACTION_TASK_READY
+ADDED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:51:13-53:29
+action#com.google.android.gms.gcm.ACTION_TASK_READY
+ADDED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:52:17-87
+	android:name
+		ADDED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:52:25-84
+service#com.evernote.android.job.JobRescheduleService
+ADDED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:55:9-57:40
+	android:exported
+		ADDED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:57:13-37
+	android:name
+		ADDED from [com.evernote:android-job:1.1.11] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/android-job-1.1.11.aar/8a1ed4158ed64b40aabf115aa67d3504/AndroidManifest.xml:56:13-73
 uses-permission#com.google.android.c2dm.permission.RECEIVE
 ADDED from [com.google.android.gms:play-services-gcm:10.0.1] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/play-services-gcm-10.0.1.aar/e29b05d847fd266b4502d2bac0a39dcc/AndroidManifest.xml:20:5-81
 MERGED from [com.google.android.gms:play-services-iid:10.0.1] /Users/benfausch/.gradle/caches/transforms-1/files-1.1/play-services-iid-10.0.1.aar/3b4e1456c5d734b8f5e8b3db3ba129bd/AndroidManifest.xml:20:5-81

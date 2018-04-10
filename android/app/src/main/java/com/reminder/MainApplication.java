@@ -2,6 +2,7 @@ package com.reminder;
 
 import android.app.Application;
 import com.facebook.react.ReactApplication;
+import com.jamesisaac.rnbackgroundtask.BackgroundTaskPackage;
 import com.wix.reactnativenotifications.RNNotificationsPackage;
 import com.ocetnik.timer.BackgroundTimerPackage;
 import com.wix.reactnativenotifications.RNNotificationsPackage;
@@ -25,6 +26,7 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new BackgroundTaskPackage(),
           new BackgroundTimerPackage(),
           new RNNotificationsPackage(MainApplication.this)          
       );
@@ -45,5 +47,6 @@ public class MainApplication extends Application implements ReactApplication {
   public void onCreate() {
     super.onCreate();
     SoLoader.init(this, /* native exopackage */ false);
+    BackgroundTaskPackage.useContext(this);
   }
 }
