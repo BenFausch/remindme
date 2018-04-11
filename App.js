@@ -9,9 +9,8 @@ console.disableYellowBox = true;
 
 class App extends React.Component {
 
-  
-  render() {
-      console.log("render")
+  render () {
+    console.log('render');
     return (
       <View>
         <TabNavigator />
@@ -20,24 +19,23 @@ class App extends React.Component {
   }
 }
 
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#403075',
     alignItems: 'center',
     justifyContent: 'center',
-    borderWidth:1,
-    borderColor:'blue'
+    borderWidth: 1,
+    borderColor: 'blue'
   },
-  text:{
-    color:'#fff',
-    fontSize:20
+  text: {
+    color: '#fff',
+    fontSize: 20
   }
 });
 
 export default TabNavigator({
   Reminders: { screen: Reminders },
   // Home: { screen: HomeScreen },
-  ReminderList:{screen: ReminderList}
+  ReminderList: {screen: ReminderList}
 });

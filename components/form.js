@@ -1,85 +1,84 @@
 import React, { Component } from 'react';
-import { AppRegistry, TextInput, Picker, Text, View, Button, AsyncStorage, Modal, ScrollView, Dimensions, TouchableOpacity } from 'react-native';
-import DatePicker from 'react-native-datepicker'
+import {  TextInput, Picker, Text, View, Button, AsyncStorage, Modal, ScrollView,  TouchableOpacity } from 'react-native';
+import DatePicker from 'react-native-datepicker';
 import styles from './styles/formStyles';
 import TimerLogic from '../utilities/timer';
 import BackgroundTimer from 'react-native-background-timer';
 import moment from 'moment';
+import BackgroundTask from 'react-native-background-task';
+
+BackgroundTask.define(() => {
+  TimerLogic.requestReminders();
+  BackgroundTask.finish();
+});
 
 export default class ReminderInput extends Component {
-  
 
-  constructor(props) {
+  constructor (props) {
     super(props);
-    this.state = { 
+    this.state = {
       text1: '',
       text2: '',
       frequencyNum: '1',
-      frequencySize:'Hour',
-      type:"single",
-      date:"",
-      timestamp:"",
-      success:'',
-      modalVisible:false,     
+      frequencySize: 'Hour',
+      type: 'single',
+      date: '',
+      timestamp: '',
+      success: '',
+      modalVisible: false
     };
 
-    //text1: title
-    //text2: body
-    //frequencyNum: times per frequencySize
-    //frequencySize: unit for repeat (day/month etc)
-    //timestamp: used for time comparisons on bg-timer
-    //success: success message if needed
-    //modalvisible: show/hide success modal
+    // text1: title
+    // text2: body
+    // frequencyNum: times per frequencySize
+    // frequencySize: unit for repeat (day/month etc)
+    // timestamp: used for time comparisons on bg-timer
+    // success: success message if needed
+    // modalvisible: show/hide success modal
   }
 
-
   componentDidMount () {
-  console.log("didmount")
-  const intervalId = BackgroundTimer.setInterval(() => { 
-        TimerLogic.echo(Date.now());
-        TimerLogic.requestReminders();
+    console.log('didmount');
+    const intervalId = BackgroundTimer.setInterval(() => {
+      TimerLogic.echo(Date.now());
+      TimerLogic.requestReminders();
     }, 10000);
+    BackgroundTask.schedule();
   }
 
   save = () => {
-    
     this.setState({
-      success:'yolo',
-    })
+      success: 'yolo'
+    });
     let current = this.state;
-    if(current.type==='recurring'){
-        current.timestamp = Date.now();
-      }
-    console.log(current)
+    if (current.type === 'recurring') {
+      current.timestamp = Date.now();
+    }
+    console.log(current);
 
-    AsyncStorage.setItem(this.state.text1,JSON.stringify(current), ()=>{
-      AsyncStorage.getItem(this.state.text1, (err,result)=>{
-        this.setModalVisible(true)
-      })
-    })
+    AsyncStorage.setItem(this.state.text1, JSON.stringify(current), () => {
+      AsyncStorage.getItem(this.state.text1, (err, result) => {
+        this.setModalVisible(true);
+      });
+    });
   }
 
-
-
-
-  setDate = (date)=>{
-    
-    console.log('setdate')
-    console.log(moment(date, "MMMM Do YYYY, h:mm a").valueOf());
-    let timestamp = moment(date, "MMMM Do YYYY, h:mm a").valueOf();
-    this.setState({date: date, timestamp:timestamp})
+  setDate = (date) => {
+    console.log('setdate');
+    console.log(moment(date, 'MMMM Do YYYY, h:mm a').valueOf());
+    let timestamp = moment(date, 'MMMM Do YYYY, h:mm a').valueOf();
+    this.setState({date: date, timestamp: timestamp});
   }
 
-  setModalVisible(visible) {
+  setModalVisible (visible) {
     this.setState({modalVisible: visible});
   }
 
-
-  render() {
+  render () {
     return (
       <ScrollView style={styles.container}>
       <View style={styles.recurringContainer}>
-      
+
       <Modal
           animationType="slide"
           transparent={false}
@@ -107,7 +106,7 @@ export default class ReminderInput extends Component {
       placeholder={'Title your thing'}
         style={styles.input}
         onChangeText={(text1) => this.setState({text1})}
-        onFocus={()=>{this.setState({'text1':''})}}
+        onFocus={() => { this.setState({'text1': ''}); }}
         value={this.state.text1}
       />
       <TextInput
@@ -116,27 +115,26 @@ export default class ReminderInput extends Component {
       placeholder={"What is the thing you're supposed to do"}
         style={styles.input}
         onChangeText={(text2) => this.setState({text2})}
-        onFocus={()=>{this.setState({'text2':''})}}
+        onFocus={() => { this.setState({'text2': ''}); }}
         value={this.state.text2}
       />
       <View style={styles.toggleGroup}>
-      
+
         <TouchableOpacity
-        onPress={()=>{this.setState({'type':'single'})}}
-         style={[styles.toggle,this.state.type==='single'?styles.active:styles.inactive]}>
-         
-          <Text style={[styles.toggleText,this.state.type==='single'?styles.activeText:styles.inactiveText]}>Once</Text>
+        onPress={() => { this.setState({'type': 'single'}); }}
+         style={[styles.toggle, this.state.type === 'single' ? styles.active : styles.inactive]}>
+
+          <Text style={[styles.toggleText, this.state.type === 'single' ? styles.activeText : styles.inactiveText]}>Once</Text>
         </TouchableOpacity>
         <TouchableOpacity
-        onPress={()=>{this.setState({'type':'recurring'})}}
-        style={[styles.toggle,this.state.type==='recurring'?styles.active:styles.inactive]}>
-          <Text style={[styles.toggleText,this.state.type==='recurring'?styles.activeText:styles.inactiveText]}>
+        onPress={() => { this.setState({'type': 'recurring'}); }}
+        style={[styles.toggle, this.state.type === 'recurring' ? styles.active : styles.inactive]}>
+          <Text style={[styles.toggleText, this.state.type === 'recurring' ? styles.activeText : styles.inactiveText]}>
           Recurring</Text>
         </TouchableOpacity>
-        
-        
+
       </View>
-      {this.state.type==='recurring' ?(
+      {this.state.type === 'recurring' ? (
       <View style={this.state.recurring}>
       <Picker
         selectedValue={this.state.frequencyNum}
@@ -167,7 +165,7 @@ export default class ReminderInput extends Component {
         <Picker.Item label="Month" value="Month" />
       </Picker>
       </View>
-      ): (<View>    
+      ) : (<View>
         <DatePicker
         style={styles.datepicker}
         date={this.state.date}
@@ -186,15 +184,15 @@ export default class ReminderInput extends Component {
             marginLeft: 0
           },
           dateInput: {
-            marginLeft: 36,
-            
+            marginLeft: 36
+
           },
-          dateText:{
-          color:'white',
-          fontWeight:'bold'
+          dateText: {
+            color: 'white',
+            fontWeight: 'bold'
           }
         }}
-        onDateChange={(date) => {this.setDate(date)}}
+        onDateChange={(date) => { this.setDate(date); }}
       />
       </View>)}
       <TouchableOpacity
@@ -204,7 +202,7 @@ export default class ReminderInput extends Component {
       >
       <Text style={styles.text}>Save it!</Text>
       </TouchableOpacity>
-      </View>      
+      </View>
       </ScrollView>
     );
   }
