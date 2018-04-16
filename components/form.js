@@ -1,16 +1,105 @@
 import React, { Component } from 'react';
-import {  TextInput, Picker, Text, View, Button, AsyncStorage, Modal, ScrollView,  TouchableOpacity } from 'react-native';
+import { TextInput, Picker, Text, View, Button, AsyncStorage, Modal, ScrollView, TouchableOpacity, Alert } from 'react-native';
 import DatePicker from 'react-native-datepicker';
 import styles from './styles/formStyles';
 import TimerLogic from '../utilities/timer';
 import BackgroundTimer from 'react-native-background-timer';
 import moment from 'moment';
 import BackgroundTask from 'react-native-background-task';
+import { NotificationsAndroid } from 'react-native-notifications';
+import {GraphRequest, GraphRequestManager, AccessToken} from 'react-native-fbsdk';
+import Config from 'react-native-config';
 
+let newsAPI = Config.NEWS_API;
+
+// newsapi.org is the api we're using to post articles from opposite political pages
+
+// create stateless background task
 BackgroundTask.define(() => {
   TimerLogic.requestReminders();
   BackgroundTask.finish();
 });
+
+function deleteOne (reminder) {
+  AsyncStorage.removeItem(reminder);
+}
+
+// function to be used by push opens
+function onNotificationOpened (notification) {
+  Alert.alert(
+  'Reminding your face about:' + notification.data.title,
+  'Hey there buddy, did you ' + notification.data.extra + '?',
+    [
+    {text: 'nope', onPress: () => postToFacebook(notification), style: 'cancel'},
+      {text: 'i did leave me alone',
+        onPress: () => Alert.alert('fine. wanna cancel this notification?', '', [
+        {text: 'yeah', onPress: () => deleteOne(notification.data.title), style: 'cancel'},
+        {text: 'nah', onPress: () => alert("k it's still there to bother you")}
+        ])}
+    ],
+  { cancelable: false }
+);
+}
+
+function getStory (notification) {
+  let baseURL = 'https://newsapi.org/v2/everything?sources=breitbart-news&apiKey=' + newsAPI;
+  fetch(baseURL, {
+    method: 'GET',
+    headers: {
+      Accept: 'application/json',
+      'Content-Type': 'application/json'
+    }})
+ .then((response) => response.json())
+    .then((responseJSON) => {
+      console.log(responseJSON);
+
+      fbPost(responseJSON.articles[0].url, notification);
+    }).catch((error) => {
+      console.error(error);
+    });
+}
+
+function fbPost (story, notification) {
+  AccessToken.getCurrentAccessToken().then(
+                (data) => {
+                  let tempAccesstoken = data.accessToken;
+                  const _responseInfoCallback = (error, result) => {
+                    console.log(result);
+                  };
+
+                  const postRequestParams = {
+                    message: {
+                      string: 'Hola muchachos! \n Testing my app. \n Ben did not ' + notification.data.extra + '. \nAs punishment, here\'s a post from Breitbart shared on his behalf: \n' + story
+                    }
+                  };
+
+                  const postRequestConfig = {
+                    httpMethod: 'POST',
+                    version: 'v2.9',
+                    parameters: postRequestParams,
+                    accessToken: tempAccesstoken
+                  };
+
+                  console.log(postRequestConfig);
+
+                  const infoRequest = new GraphRequest(
+                        '/me/feed',
+                        postRequestConfig,
+                        _responseInfoCallback,
+                    );
+                  console.log('infoRequest');
+                  console.log(infoRequest);
+
+                  new GraphRequestManager().addRequest(infoRequest).start();
+                });
+}
+
+postToFacebook = (notification) => {
+  getStory(notification);
+};
+
+// handler for push notif opens
+NotificationsAndroid.setNotificationOpenedListener(onNotificationOpened);
 
 export default class ReminderInput extends Component {
 

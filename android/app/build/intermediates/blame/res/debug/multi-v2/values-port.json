@@ -4,15 +4,8 @@
             "outputFile": "/Users/benfausch/Sites/PersonalProjects/reminder/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "/Users/benfausch/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f41d3be72f6f9738f1df4b7a217754d0/res/values-port/values-port.xml",
+                    "source": "/Users/benfausch/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/6a0426c1c427e3523b6bcda57005dfac/res/values-port/values-port.xml",
                     "from": {
-                        "startLines": "4",
-                        "startColumns": "4",
-                        "startOffsets": "280",
-                        "endColumns": "55",
-                        "endOffsets": "331"
-                    },
-                    "to": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",

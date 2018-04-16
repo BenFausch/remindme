@@ -4,16 +4,8 @@
             "outputFile": "/Users/benfausch/Sites/PersonalProjects/reminder/android/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v12/values-v12.xml",
             "map": [
                 {
-                    "source": "/Users/benfausch/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/0ac32445f797274e2d1d4c198220de6e/res/values-v12/values-v12.xml",
+                    "source": "/Users/benfausch/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/d0b6044a5e34a8be678148f29b3e713b/res/values-v12/values-v12.xml",
                     "from": {
-                        "startLines": "4,7,10,11",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "285,509,709,828",
-                        "endLines": "6,9,10,11",
-                        "endColumns": "12,12,118,94",
-                        "endOffsets": "504,704,823,918"
-                    },
-                    "to": {
                         "startLines": "2,5,8,9",
                         "startColumns": "4,4,4,4",
                         "startOffsets": "55,279,479,598",

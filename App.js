@@ -36,6 +36,6 @@ const styles = StyleSheet.create({
 
 export default TabNavigator({
   Reminders: { screen: Reminders },
-  // Home: { screen: HomeScreen },
+  Home: { screen: HomeScreen },
   ReminderList: {screen: ReminderList}
 });

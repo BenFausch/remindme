@@ -80,7 +80,7 @@ export default class TimerLogic {
       NotificationsAndroid.localNotification({
   			title: reminder.text1,
   			body: "It's time to " + reminder.text2 + ' you fucking fuck',
-  			extra: 'test123'
+  			extra: reminder.text2
       });
       AsyncStorage.removeItem(reminder.text1);
 
