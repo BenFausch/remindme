@@ -11,7 +11,6 @@ import {GraphRequest, GraphRequestManager, AccessToken} from 'react-native-fbsdk
 import Config from 'react-native-config';
 
 let newsAPI = Config.NEWS_API;
-
 // newsapi.org is the api we're using to post articles from opposite political pages
 
 // create stateless background task
@@ -27,7 +26,7 @@ function deleteOne (reminder) {
 // function to be used by push opens
 function onNotificationOpened (notification) {
   Alert.alert(
-  'Reminding your face about:' + notification.data.title,
+  'Reminding your face about: ' + notification.data.title,
   'Hey there buddy, did you ' + notification.data.extra + '?',
     [
     {text: 'nope', onPress: () => postToFacebook(notification), style: 'cancel'},
@@ -40,6 +39,10 @@ function onNotificationOpened (notification) {
   { cancelable: false }
 );
 }
+
+let postToFacebook = (notification) => {
+  getStory(notification);
+};
 
 function getStory (notification) {
   let baseURL = 'https://newsapi.org/v2/everything?sources=breitbart-news&apiKey=' + newsAPI;
@@ -64,7 +67,7 @@ function fbPost (story, notification) {
                 (data) => {
                   let tempAccesstoken = data.accessToken;
                   const _responseInfoCallback = (error, result) => {
-                    console.log(result);
+                    console.log(result + error);
                   };
 
                   const postRequestParams = {
@@ -93,10 +96,6 @@ function fbPost (story, notification) {
                   new GraphRequestManager().addRequest(infoRequest).start();
                 });
 }
-
-postToFacebook = (notification) => {
-  getStory(notification);
-};
 
 // handler for push notif opens
 NotificationsAndroid.setNotificationOpenedListener(onNotificationOpened);
@@ -247,7 +246,7 @@ export default class ReminderInput extends Component {
         onValueChange={(itemValue, itemIndex) => this.setState({frequencySize: itemValue})}
         style={styles.picker}
         itemStyle={styles.pickerItem}>
-        <Picker.Item label="Minute" value="Minute" />
+        <Picker.Item label="15 Minutes" value="15 Minutes" />
         <Picker.Item label="Hour" value="Hour" />
         <Picker.Item label="Day" value="Day" />
         <Picker.Item label="Week" value="Week" />

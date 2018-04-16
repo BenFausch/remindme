@@ -1,0 +1,33 @@
+TODOS:
+
+FREQUENCY:
+- frequency can only be 15 minutes
+
+
+POSTING:
+- need a few other sources for content, Sports news/google alerts possibly
+
+
+MEANNESS:
+- homescreen needs a setting 1-5
+- define levels
+	- nice: just push notifications
+	- kinda mean: push notifications, giphy/silly photos on fb if they say no
+	- meaner: push notifications, opposing views if they say no
+	- meanest: push notifications, opposing views if they don't respond before next notif
+	- brutal: push notifications, offensive material to social if they don't respond
+- taste preferences need to be defined
+	- political (posts opposing political views)
+	- sports (posts rival teams, onion sports page articles)
+	- music (posts kidz bob or bieber songs)
+	- nsfw - brutal level only (posts from terrible subreddits)
+
+
+HOME:
+- create meanness picker/descriptions
+- create post category (political, sports, music, nsfw)
+	- slider to choose prefs for political/sports
+
+
+REMINDERS:
+- style modal

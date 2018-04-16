@@ -18,8 +18,8 @@ export default class TimerLogic {
   }
 
   static parseReminders (reminders) {
-	// console.log(JSON.parse(reminders[0][1]));
-	// "{"text1":"test2","text2":"2","frequencyNum":"1","frequencySize":"Hour","success":"","modalVisible":false,"date":"","timestamp":1522864158802}"
+// console.log(JSON.parse(reminders[0][1]));
+// "{"text1":"test2","text2":"2","frequencyNum":"1","frequencySize":"Hour","success":"","modalVisible":false,"date":"","timestamp":1522864158802}"
 
     if (reminders && reminders[0] && reminders[0][1]) {
       console.log(JSON.parse(reminders[0][1]));
@@ -28,16 +28,16 @@ export default class TimerLogic {
         console.log(i);
         console.log('a reminder named: ' + reminder[0]);
 
-		// get first reminder to test
+// get first reminder to test
         let firstReminder = JSON.parse(reminders[i][1]);
 
-		// get date.now in ms (ms since unix epoch)
+// get date.now in ms (ms since unix epoch)
         let now = Date.now();
-		// get reminder timestamp
+// get reminder timestamp
         let timestamp = firstReminder.timestamp;
         console.log('timestamp is', timestamp);
 
-		// get frequency scale (frequencySize in ms / frequencyNum)
+// get frequency scale (frequencySize in ms / frequencyNum)
         let frequencyScale = TimerLogic.getFrequencyScale(firstReminder.frequencySize, firstReminder.frequencyNum);
         console.log('frequency scale in ms: ' + frequencyScale);
 
@@ -55,8 +55,8 @@ export default class TimerLogic {
   static getFrequencyScale (size, number) {
     let sizeMs = 0;
     switch (size) {
-      case 'Minute':
-        sizeMs = 60000;
+      case '15 Minutes':
+        sizeMs = 900000;
         break;
       case 'Hour':
         sizeMs = 3600000;
@@ -78,9 +78,9 @@ export default class TimerLogic {
     console.log(reminder);
     if (reminder) {
       NotificationsAndroid.localNotification({
-  			title: reminder.text1,
-  			body: "It's time to " + reminder.text2 + ' you fucking fuck',
-  			extra: reminder.text2
+        title: reminder.text1,
+        body: "It's time to " + reminder.text2 + ' you fucking fuck',
+        extra: reminder.text2
       });
       AsyncStorage.removeItem(reminder.text1);
 
