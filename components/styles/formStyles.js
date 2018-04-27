@@ -10,18 +10,20 @@ const {
 const fontFamily = (Platform.OS === 'android' ? 'roboto' : 'HelveticaNeue-Light');
 const weight = '300';
 const size = 18;
+const purple = '#261758CC';
 
 export default StyleSheet.create({
   container: {
     flex: 0,
     width: width,
     backgroundColor: '#403075',
-    padding: 20
+    
   },
   recurringContainer: {
     alignItems: 'center',
-    paddingTop: 50,
-    paddingBottom: 100
+    padding: 20,
+    paddingTop: 70,
+    height:height
   },
   input: {
     height: 60,
@@ -32,19 +34,22 @@ export default StyleSheet.create({
     fontWeight: weight,
     fontSize: size,
     textAlign: 'center',
-    backgroundColor: '#261758'
+    backgroundColor: purple,
+    borderColor:'white',
+    borderWidth:2
   },
   datepicker: {
     marginTop: 20,
     marginBottom: 50,
-    width: width - 120
+    width: width - 120,
+    // color:'white'
   },
   picker: {
     color: 'white',
     flex: 0,
     width: width - 50,
     borderWidth: 1,
-    backgroundColor: '#261758',
+    backgroundColor: purple,
     marginBottom: 20,
     height: 60
   },
@@ -74,7 +79,8 @@ export default StyleSheet.create({
     width: width - 50,
     height: 60,
     alignItems: 'center',
-    paddingTop: 10
+    paddingTop: 10,
+    backgroundColor:purple
   },
   recurring: {
     flex: 0
@@ -98,11 +104,12 @@ export default StyleSheet.create({
     textAlign: 'center'
   },
   active: {
-    borderColor: 'white'
+    borderColor: 'white',
+    backgroundColor: purple,
   },
   inactive: {
     borderColor: '#ffffff53',
-    backgroundColor: '#261758'
+    
   },
   activeText: {
     color: 'white'

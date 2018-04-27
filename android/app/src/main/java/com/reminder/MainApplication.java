@@ -2,6 +2,8 @@ package com.reminder;
 
 import android.app.Application;
 import com.facebook.react.ReactApplication;
+import rnsoundplayer.RNSoundPlayerPackage;
+import com.emekalites.react.alarm.notification.ANPackage;
 import com.facebook.reactnative.androidsdk.FBSDKPackage;
 import com.facebook.FacebookSdk;
 import com.facebook.CallbackManager;
@@ -36,6 +38,8 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new RNSoundPlayerPackage(),
+            new ANPackage(),
               new FBSDKPackage(mCallbackManager),
             new BackgroundTaskPackage(),
           new BackgroundTimerPackage(),

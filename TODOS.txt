@@ -31,3 +31,11 @@ HOME:
 
 REMINDERS:
 - style modal
+
+
+
+
+KELLY SUGGESTIONS:
+- alarm
+- increasing frequency until task is complete
+- WUPFHFing user if necessary

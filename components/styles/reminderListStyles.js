@@ -15,7 +15,12 @@ const white = '#fff';
 export default StyleSheet.create({
   reminderTitle: {
     color: white,
-    fontSize: size * 2
+    fontSize: size * 2.5,
+    fontWeight:'bold',
+    textShadowColor: 'rgba(0, 0, 0, 0.75)',
+  textShadowOffset: {width: 0, height: 2},
+  textShadowRadius: 4,
+  marginTop:15
   },
   container: {
     flex: 1,
@@ -23,7 +28,13 @@ export default StyleSheet.create({
   },
   subcontainer: {
     justifyContent: 'center',
-    alignItems: 'center'
+    alignItems: 'center',
+    flex:0,
+    minHeight:height
+  },
+  list:{
+    paddingTop: 10, paddingBottom: 50,
+    minHeight:height
   },
   destroyButton: {
     backgroundColor: '#EE0087',
@@ -64,11 +75,14 @@ export default StyleSheet.create({
   },
   nothing: {
     marginTop: 50,
-    color: '#ffffff80',
+    color: '#ffffff',
     fontSize: size * 1.5,
     width: width - 100,
-    height: 300,
-    textAlign: 'center'
+    // height: 100,
+    textAlign: 'center',
+    fontWeight:'bold',
+    backgroundColor:'#00000040',
+    marginBottom:100
   },
   title: {
     fontSize: size * 1.5,

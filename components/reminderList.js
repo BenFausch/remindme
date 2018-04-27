@@ -1,7 +1,9 @@
 import React from 'react';
-import { StyleSheet, Text, View, ScrollView, FlatList, AsyncStorage, TouchableOpacity, Alert} from 'react-native';
+import { StyleSheet, Text, View, ScrollView, FlatList, AsyncStorage, TouchableOpacity, Alert, ImageBackground} from 'react-native';
 import styles from './styles/reminderListStyles';
 import moment from 'moment';
+
+const list = require('../images/list.jpg');
 
 export default class ReminderList extends React.Component {
 
@@ -99,21 +101,21 @@ export default class ReminderList extends React.Component {
   render () {
     return (
       <ScrollView style={styles.container}>
-      <View style={styles.subcontainer}>
+
+      <ImageBackground style={styles.subcontainer} resizeMode='stretch' source={list}>
         <Text style={styles.reminderTitle}>hola muchacho {'\n'}here's your crap</Text>
+
        {(this.state.dataSource).length > 0
-        ? <FlatList
+        ? (<FlatList
         data={this.state.dataSource}
-        style={{paddingTop: 10, paddingBottom: 50}}
+        style={styles.list}
                   enableEmptySections
-                  renderItem={this._renderRow} /> : <Text style={styles.nothing}>Nothing here, why don't you try to do something with your life through reminders?</Text>
+                  renderItem={this._renderRow} />
+
+                  ) : (<Text style={styles.nothing}>Nothing here, why don't you try to do something with your life through reminders?</Text>)
                 }
-        <TouchableOpacity
-      onPress={this.destroy}
-      style={styles.destroyAllButton}
-      ><Text style={styles.destroyAllButtonText}>): Destroy Data :(</Text>
-      </TouchableOpacity>
-      </View>
+       
+      </ImageBackground>
       </ScrollView>
     );
   }

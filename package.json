@@ -32,12 +32,17 @@
     "react": "16.3.0-alpha.1",
     "react-moment": "^0.7.0",
     "react-native": "0.54.0",
+    "react-native-alarm-clock": "^1.0.0",
+    "react-native-alarm-notification": "^1.0.9",
+    "react-native-alarms": "git+https://github.com/ioddly/react-native-alarms.git",
     "react-native-background-task": "^0.2.1",
     "react-native-background-timer": "^2.0.1",
     "react-native-datepicker": "^1.6.0",
     "react-native-fbsdk": "^0.7.0",
+    "react-native-fontawesome": "^5.7.0",
     "react-native-notifications": "^1.1.19",
     "react-native-push-notification": "^3.0.2",
+    "react-native-sound-player": "^0.3.0",
     "react-navigation": "^1.5.8"
   }
 }

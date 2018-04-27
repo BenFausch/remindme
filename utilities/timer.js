@@ -1,6 +1,8 @@
 import { StyleSheet, Text, View, FlatList, AsyncStorage} from 'react-native';
 import {NotificationsAndroid, NotificationAction, NotificationCategory } from 'react-native-notifications';
 import BackgroundTimer from 'react-native-background-timer';
+import SoundPlayer from 'react-native-sound-player';
+
 
 export default class TimerLogic {
 
@@ -82,6 +84,7 @@ export default class TimerLogic {
         body: "It's time to " + reminder.text2 + ' you fucking fuck',
         extra: reminder.text2
       });
+      SoundPlayer.playSoundFile('mmmbop', 'mp3');
       AsyncStorage.removeItem(reminder.text1);
 
       if (reminder.type === 'recurring') {

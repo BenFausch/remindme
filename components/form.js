@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { TextInput, Picker, Text, View, Button, AsyncStorage, Modal, ScrollView, TouchableOpacity, Alert } from 'react-native';
+import { TextInput, Picker, Text, View, Button, AsyncStorage, Modal, ScrollView, TouchableOpacity, Alert, ImageBackground } from 'react-native';
 import DatePicker from 'react-native-datepicker';
 import styles from './styles/formStyles';
 import TimerLogic from '../utilities/timer';
@@ -9,6 +9,8 @@ import BackgroundTask from 'react-native-background-task';
 import { NotificationsAndroid } from 'react-native-notifications';
 import {GraphRequest, GraphRequestManager, AccessToken} from 'react-native-fbsdk';
 import Config from 'react-native-config';
+
+const bg = require('../images/doge.jpg');
 
 let newsAPI = Config.NEWS_API;
 // newsapi.org is the api we're using to post articles from opposite political pages
@@ -165,7 +167,7 @@ export default class ReminderInput extends Component {
   render () {
     return (
       <ScrollView style={styles.container}>
-      <View style={styles.recurringContainer}>
+      <ImageBackground style={styles.recurringContainer} resizeMode='cover' source={bg}>
 
       <Modal
           animationType="slide"
@@ -269,15 +271,22 @@ export default class ReminderInput extends Component {
             position: 'absolute',
             left: 0,
             top: 4,
-            marginLeft: 0
+            marginLeft: 0,
+            backgroundColor:'#00000000'
           },
           dateInput: {
-            marginLeft: 36
-
+            marginLeft: 36,
+            backgroundColor:'#261758CC',
+            // color:'white'
           },
           dateText: {
-            color: 'white',
+            // color: 'white',
             fontWeight: 'bold'
+          },
+          placeHolderText:{
+            // color:'white',
+            fontWeight:'bold',
+            fontSize:'18'
           }
         }}
         onDateChange={(date) => { this.setDate(date); }}
@@ -290,7 +299,7 @@ export default class ReminderInput extends Component {
       >
       <Text style={styles.text}>Save it!</Text>
       </TouchableOpacity>
-      </View>
+      </ImageBackground>
       </ScrollView>
     );
   }
